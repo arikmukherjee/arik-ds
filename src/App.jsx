@@ -3,15 +3,22 @@ import React from "react";
 const experiences = [
   {
     role: "Data Science Intern",
+    organization: "Aunwesha Academy",
+    period: "2025",
+    description:
+      "Worked on data science and machine learning task on Heart Disease Analysis as part of Summer Internship Program.",
+  },
+  {
+    role: "Data Science Intern",
     organization: "IDEAS-TIH, ISI Kolkata",
     period: "2026",
     description:
-      "Worked on data science and machine learning tasks as part of the IDEAS-TIH Summer Internship Program.",
+      "Worked on data science and machine learning task on Used Car Price Prediction as part of the IDEAS-TIH Summer Internship Program.",
   },
   {
     role: "Private Computer Science Tutor",
     organization: "Independent",
-    period: "Nov 2024 – Present",
+    period: "2024 – Present",
     description:
       "Teaching computer science concepts and helping learners build programming and problem-solving skills.",
   },
@@ -123,7 +130,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                in LinkedIn
+                LinkedIn
               </a>
               <span>•</span>
               <a
@@ -167,16 +174,22 @@ function App() {
         </section>
 
         <section id="projects" className="section">
-          <SectionTitle>Selected Projects</SectionTitle>
+          <SectionTitle>Major Projects</SectionTitle>
 
           <div className="project-grid">
             <article className="project-card">
               <span className="project-number">01</span>
-              <h3>Sundarban Forest Restoration</h3>
+
+              <div className="project-header">
+                <h3>Sundarban Forest Restoration</h3>
+                <span className="project-status">Under Development</span>
+              </div>
+
               <p>
-                Forest image analysis and species recommendation system for
+                A Research project on Forest image analysis and species recommendation system for
                 suggesting suitable planting choices.
               </p>
+
               <div className="tags">
                 <span>React</span>
                 <span>Python</span>
@@ -187,15 +200,17 @@ function App() {
 
             <article className="project-card">
               <span className="project-number">02</span>
-              <h3>Digital Book Shelf</h3>
+              <h3>Eudify</h3>
               <p>
-                A searchable digital library interface for organizing books,
-                papers, projects, assignments, and notes.
+                A E-learning platform that provides a comprehensive solution for
+                online education, including course management, student
+                engagement, and assessment tools.
               </p>
               <div className="tags">
                 <span>HTML</span>
                 <span>CSS</span>
                 <span>JavaScript</span>
+                <span>PHP</span>
               </div>
             </article>
           </div>

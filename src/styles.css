@@ -349,6 +349,47 @@ footer p {
   margin: 0;
 }
 
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-status {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #002fff;
+  border-radius: 999px;
+  color: #006eff;
+  white-space: nowrap;
+
+  box-shadow:
+    0 0 5px #0077ff,
+    0 0 12px rgba(0, 102, 255, 0.5);
+
+  text-shadow: 0 0 6px #006eff;
+
+  animation: statusGlow 2s ease-in-out infinite;
+}
+
+@keyframes statusGlow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 5px #006eff,
+      0 0 12px rgba(25, 0, 255, 0.5);
+  }
+
+  50% {
+    box-shadow:
+      0 0 8px #0059ff,
+      0 0 22px rgba(0, 89, 255, 0.8);
+  }
+}
+
+
+
 @media (max-width: 760px) {
   .site-shell {
     width: min(100% - 28px, 680px);
