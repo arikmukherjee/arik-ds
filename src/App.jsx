@@ -231,7 +231,7 @@ function App() {
             Interested in collaborating, discussing a project, or connecting
             about opportunities?
           </p>
-          <a className="contact-button" href="mailto:your-email@example.com">
+          <a className="contact-button" href="mailto:arikmukherjee2022@gmail.com">
             Get in touch →
           </a>
         </section>
