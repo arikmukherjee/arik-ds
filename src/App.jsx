@@ -2,18 +2,18 @@ import React from "react";
 
 const experiences = [
   {
-    role: "Data Science Intern",
+    role: "Data Analytics Intern",
     organization: "Aunwesha Academy",
     period: "2025",
     description:
-      "Worked on data science and machine learning task on Heart Disease Analysis as part of Summer Internship Program.",
+      "Worked on data science and machine learning task on Heart Disease Analysis as part of Autumn Internship Program.",
   },
   {
-    role: "Data Science Intern",
-    organization: "IDEAS-TIH, ISI Kolkata",
+    role: "Data Analytics Intern",
+    organization: "IDEAS Technical Innovation Hub, Indian Statistical Institute, Kolkata",
     period: "2026",
     description:
-      "Worked on data science and machine learning task on Used Car Price Prediction as part of the IDEAS-TIH Summer Internship Program.",
+      "Worked on data science and machine learning task on Used Car Price Prediction as part of the IDEAS-TIH @ ISI Kolkata Summer Internship Program.",
   },
   {
     role: "Private Computer Science Tutor",
