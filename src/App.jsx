@@ -6,7 +6,7 @@ const experiences = [
     organization: "Aunwesha Academy",
     period: "2025",
     description:
-      "Worked on data science and machine learning task on Heart Disease Analysis as part of Autumn Internship Program.",
+      "Worked on data science and machine learning task on Diabetes Analysis and Prediction as part of Autumn Internship Program.",
   },
   {
     role: "Summer Intern",
