@@ -2,14 +2,14 @@ import React from "react";
 
 const experiences = [
   {
-    role: "Data Analytics Intern",
+    role: "Autumn Intern",
     organization: "Aunwesha Academy",
     period: "2025",
     description:
       "Worked on data science and machine learning task on Heart Disease Analysis as part of Autumn Internship Program.",
   },
   {
-    role: "Data Analytics Intern",
+    role: "Summer Intern",
     organization: "IDEAS Technical Innovation Hub, Indian Statistical Institute, Kolkata",
     period: "2026",
     description:
